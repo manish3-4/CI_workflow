@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   experimental: {
     agentFeedback: true,
   },
+  output: "standalone",
+  reactStrictMode: true,
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
